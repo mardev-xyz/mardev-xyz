@@ -31,10 +31,10 @@ class Attributes(Mar):
         langs = {
             'expert'      : ['python', 'lua'],
             'intermediate': ['go', 'js'],
-            'learning'    : ['c', 'c++', 'c#', 'asm', 'java']
+            'learning'    : ['c', 'c++', 'c#']
         }
-        specialities  = ['web/app reverse engineering', 'fullstack', 'ai', 'fivem']
-        ide           = ['vscode', 'notepad']
+        specialities  = ['web/app reverse engineering', 'ai', 'fivem']
+        ide           = ['vscode', 'intellij']
 
 	return langs, specialities, ide
 ```
