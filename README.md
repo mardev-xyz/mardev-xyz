@@ -39,6 +39,8 @@ class Attributes(Mar):
 	return langs, specialities, ide
 ```
 
+![](https://komarev.com/ghpvc/?username=mardev-xyz)
+
 <h2 align="center">Skills </h2>
 
 <p align="center">
