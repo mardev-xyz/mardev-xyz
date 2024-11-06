@@ -52,3 +52,6 @@ class Attributes(Mar):
 <p href="https://discord.gg/starscripts" align="center">
     <img alt="" src="https://github-readme-stats.vercel.app/api?username=mardev-xyz&theme=tokyonight&show_icons=true">
 </p>
+
+<h2 align="center">Currently doing </h2>
+Working on contributing repositories within the FiveM world - fixing vulnerabilities
