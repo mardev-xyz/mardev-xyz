@@ -23,8 +23,9 @@ class Attributes(Mar):
     @property
     def life(self) -> Tuple[List[str], int]:
         langs = ['Dutch', 'Arabic', 'English']
+	country = ['Netherlands', 'Morocco']
 		
-        return langs
+        return langs, country
 	
     @property
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
@@ -54,4 +55,4 @@ class Attributes(Mar):
 </p>
 
 <h2 align="center">Currently doing </h2>
-Working on contributing repositories within the FiveM world - fixing vulnerabilities
+		Working on contributing repositories within the FiveM world - fixing vulnerabilities
