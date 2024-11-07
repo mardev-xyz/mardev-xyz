@@ -22,8 +22,8 @@ class Attributes(Mar):
 
     @property
     def life(self) -> Tuple[List[str], int]:
-        langs = ['Dutch', 'Arabic', 'English']
-	country = ['Netherlands', 'Morocco']
+        langs 		= ['Dutch', 'Arabic', 'English']
+	country 	= ['Netherlands', 'Morocco']
 		
         return langs, country
 	
