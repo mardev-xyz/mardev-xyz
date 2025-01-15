@@ -65,7 +65,6 @@ class Attributes extends Mar {
 
 <h2 align="center">Position </h2>
 
-```
 ## 🌟 Current Position
 **Role**: CEO
 **Company**: Amersfoort Roleplay (Amersfoort Enterprise)
@@ -74,4 +73,3 @@ class Attributes extends Mar {
 - Handle all financial business within the company
 - Backend/frontend development
 - Handle partnerships within Amersfoort with other companeies
-```
