@@ -6,38 +6,47 @@
 
 <h2 align="center">About Me </h2>
 
-```python
-from typing import Tuple, List, Dict
+```typescript
+type ContactInfo = [string, string];
+type LifeInfo = [string[], string[]];
+type CodingSkills = {
+    langs: {
+        expert: string[];
+        intermediate: string[];
+        learning: string[];
+    };
+    specialities: string[];
+    ide: string[];
+};
 
-class Mar:
-    pass
+class Mar {}
 
-class Attributes(Mar):
-    @property
-    def contact(self) -> Tuple[str, str, str]:
-        discord  = "https://discord.gg/starscripts"
-        email    = "github@starscripts.xyz"
-	    
-        return email, discord
+class Attributes extends Mar {
+    get contact(): ContactInfo {
+        const discord = "https://discord.gg/starscripts";
+        const email = "github@starscripts.xyz";
+        return [email, discord];
+    }
 
-    @property
-    def life(self) -> Tuple[List[str], int]:
-        langs 		= ['Dutch', 'Arabic', 'English']
-	country 	= ['Netherlands', 'Morocco']
-		
-        return langs, country
-	
-    @property
-    def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
-        langs = {
-            'expert'      : ['python', 'lua'],
-            'intermediate': ['go', 'js'],
-            'learning'    : ['c', 'c++', 'c#']
-        }
-        specialities  = ['web/app reverse engineering', 'ai', 'fivem']
-        ide           = ['vscode', 'intellij']
+    get life(): LifeInfo {
+        const langs = ["Dutch", "Arabic", "English"];
+        const country = ["Netherlands", "Morocco"];
+        return [langs, country];
+    }
 
-	return langs, specialities, ide
+    get coding(): CodingSkills {
+        const langs = {
+            expert: ["python", "lua"],
+            intermediate: ["go", "js"],
+            learning: ["c", "c++", "c#"],
+        };
+
+        const specialities = ["web/app reverse engineering", "ai", "fivem"];
+        const ide = ["vscode", "intellij"];
+
+        return { langs, specialities, ide };
+    }
+}
 ```
 
 ![](https://komarev.com/ghpvc/?username=mardev-xyz)
