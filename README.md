@@ -63,5 +63,14 @@ class Attributes extends Mar {
     <img alt="" src="https://github-readme-stats.vercel.app/api?username=mardev-xyz&theme=tokyonight&show_icons=true">
 </p>
 
-<h2 align="center">Currently doing </h2>
-		Working on contributing repositories within the FiveM world - fixing vulnerabilities
+<h2 align="center">Position </h2>
+```
+## 🌟 Current Position
+**Role**: CEO
+**Company**: Amersfoort Roleplay (Amersfoort Enterprise)
+**Duration**: 11/4/2024 - Present
+**Responsibilities**:  
+- Handle all financial business within the company
+- Backend/frontend development
+- Handle partnerships within Amersfoort with other companeies
+```
