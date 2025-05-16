@@ -1,10 +1,4 @@
-<!-- <p align="center">
-    <img alt="" src=https://img.shields.io/github/stars/mardev-xyz?style=for-the-badge&?affiliations=OWNER%2CCOLLABORATOR />
-    <img alt="" src=https://komarev.com/ghpvc/?username=mardev-xyz&style=for-the-badge />
-</p> -->
-
-
-<h2 align="center">About Me </h2>
+<h2 align="center">About Me</h2>
 
 ```typescript
 type ContactInfo = [string, string];
@@ -23,15 +17,15 @@ class Mar {}
 
 class Attributes extends Mar {
     get contact(): ContactInfo {
-        const discord = "https://discord.gg/starscripts";
         const email = "github@starscripts.xyz";
+        const discord = "https://discord.gg/starscripts";
         return [email, discord];
     }
 
     get life(): LifeInfo {
-        const langs = ["Dutch", "Arabic", "English"];
-        const country = ["Netherlands", "Morocco"];
-        return [langs, country];
+        const languagesSpoken = ["Dutch", "Arabic", "English"];
+        const countries = ["Netherlands", "Morocco"];
+        return [languagesSpoken, countries];
     }
 
     get coding(): CodingSkills {
@@ -41,17 +35,32 @@ class Attributes extends Mar {
             learning: ["c", "c++", "c#"],
         };
 
-        const specialities = ["web/app reverse engineering", "ai", "fivem"];
-        const ide = ["vscode", "intellij"];
+        const specialities = [
+            "Web & app reverse engineering",
+            "Artificial Intelligence (AI)",
+            "FiveM development"
+        ];
+        const ide = ["Visual Studio Code", "IntelliJ IDEA"];
 
-        return [langs, specialities, ide];
+        return { langs, specialities, ide };
     }
 }
 ```
 
-![](https://komarev.com/ghpvc/?username=mardev-xyz)
+<h2 align="center">💼 Developer Portfolio</h2>
 
-<h2 align="center">Skills </h2>
+Hi! I'm **Mar**, a passionate and self-driven developer with a strong focus on reverse engineering, AI development, and custom solutions in the FiveM ecosystem. With fluency in multiple languages (both spoken and coded), I strive to bridge the gap between low-level systems and high-level user experiences.
+
+🌍 Based in the **Netherlands** and **Morocco**, I thrive in multicultural and multilingual environments. My current development stack includes expertise in **Python** and **Lua**, while constantly expanding into new languages like **Go**, **C/C++**, and **C#**.
+
+🛠️ I work mainly in **VS Code** and **IntelliJ**, driven by curiosity, community collaboration, and a dedication to solving complex problems.
+
+📫 **Contact Me**
+
+* 📧 Email: [github@starscripts.xyz](mailto:github@starscripts.xyz)
+* 💬 Discord: [discord.gg/starscripts](https://discord.gg/starscripts)
+
+<h2 align="center">Skills</h2>
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -59,6 +68,10 @@ class Attributes extends Mar {
   </a>
 </p>
 
-<p href="https://discord.gg/starscripts" align="center">
-    <img alt="" src="https://github-readme-stats.vercel.app/api?username=mardev-xyz&theme=tokyonight&show_icons=true">
+<p align="center">
+    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=mardev-xyz&theme=tokyonight&show_icons=true">
+</p>
+
+<p align="center">
+    <img alt="Profile Views" src="https://komarev.com/ghpvc/?username=mardev-xyz&style=for-the-badge" />
 </p>
